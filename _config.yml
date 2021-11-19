@@ -1,15 +1,20 @@
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - CONTRIBUTING.md
-  - README.md
-  - LICENSE.md
-  - COPYING.md
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - ISSUE_TEMPLATE.md
-  - PULL_REQUEST_TEMPLATE.md
-  - myphile.md
+title: Boreal's slice of the Web
+
+permalink: /:title
+
+baseurl: ""
+
+sass: 
+  style: compressed
+
+### exclude the instructions / write-up in the README.md
+exclude:
+- README.md
+
+highlighter: rouge
+markdown: kramdown
+### exclude the instructions / write-up in the README.md
+
+
+# Tracker
+analytics: UA-133292887-1
