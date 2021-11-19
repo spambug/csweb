@@ -1,3 +1,6 @@
-## A New Post
+---
+layout: page
+title: About
+---
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+This website is for my documentation of my techie adventures, may it be internet exporation or hardware modding, who knows, only time will tell.
